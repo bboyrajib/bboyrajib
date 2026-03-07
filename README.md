@@ -1,142 +1,74 @@
-# Rajib Roy
+<h1 align="center">Rajib Roy</h1>
 
-### Technical Lead | Full Stack Developer | AI Systems Engineer  
-Bridging Enterprise Engineering with Intelligent Automation
+<h3 align="center">
+Technical Lead • AI Systems Engineer • Full Stack Builder
+</h3>
 
-Technical Lead based in **Toronto, Canada** with **7+ years of experience** architecting enterprise automation ecosystems, fraud validation platforms, and distributed microservices testing frameworks.
+<p align="center">
+Building intelligent systems that bridge enterprise engineering with AI-powered automation.
+</p>
 
-Currently pursuing **M.Tech in Artificial Intelligence at IISc Bengaluru**.
-
-I build **AI-powered developer tools, intelligent validation engines, and production-grade ML systems** that bridge research with real-world deployment.
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=bboyrajib&label=Profile%20Views&color=0e75b6&style=flat" />
+</p>
 
 ---
 
-## Tech Stack
+# Tech Stack
 
-### Backend & Distributed Systems
-Java • Node.js • REST APIs • Microservices • SQL • NoSQL • Firebase
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,nodejs,java,react,docker,kubernetes,firebase,postgres,azure,git,github,linux,vscode,pytorch,tensorflow" />
+</p>
 
-### Frontend & Product Engineering
-React • React Native • Android • Tailwind CSS
+---
 
-### AI Systems & Machine Learning
-Python • PyTorch • FAISS • Vector Search • Clustering • Feature Engineering • LLMs • Streamlit
+# What I Build
 
-### Cloud & DevOps
-Docker • Kubernetes • Cloud Run • Azure DevOps • CI/CD
+<p align="center">
 
-### Automation & Quality Engineering
-Selenium • ETL Testing • Fraud Systems Validation • API Validation • Observability • Power BI
+AI Systems • Developer Tools • Automation Platforms • Microservices • ML Products
+
+</p>
 
 ---
 
 # Featured Projects
 
-### BuildResume — Cloud Resume SaaS
-Production-grade **LaTeX resume builder** with real-time compilation.
-
-**Tech**
-React • Node.js • Firebase • Docker • Cloud Run
-
-Live  
-https://buildresume.cv
-
----
-
-### Voice Authentication System
-Deep learning **speaker verification system** using MFCC + LSTM embeddings.
-
-Tech  
-PyTorch • MFCC • Streamlit • Librosa
-
-Live Demo  
-https://voice-auth-325986069329.northamerica-northeast1.run.app/
-
-Repo  
-https://github.com/bboyrajib/voice-auth
+| Project | Description | Tech |
+|------|------|------|
+| **BuildResume** | Cloud LaTeX resume builder with real-time compilation | React • Node • Firebase |
+| **Voice Authentication** | Deep learning speaker verification system | PyTorch • MFCC • Streamlit |
+| **Forge** | Multi-agent LLM orchestration framework | Node • React • LLM Agents |
+| **CodeConverse** | Chat with your codebase using RAG | Vector Search • LLMs |
+| **AI Music Discovery** | FAISS-based recommendation engine | Python • FAISS |
+| **YouTube Live Streaming** | Interactive streaming queue system | React • Python • FFMPEG |
 
 ---
 
-### Forge — AI Agent Orchestration System
-Multi-agent LLM execution framework with model abstraction and cost monitoring.
+# Experience Snapshot
 
-Tech  
-Node.js • React • LLM Agents
+**Technical Lead — Wipro Canada**
 
-Repo  
-https://github.com/bboyrajib/forge
-
----
-
-### CodeConverse — Chat With Your Docs
-RAG-based developer assistant for semantic querying of codebases.
-
-Tech  
-RAG • Vector Embeddings • Semantic Search
-
-Repo  
-https://github.com/bboyrajib/CodeConverse
-
----
-
-### AI Music Discovery Platform
-High-performance recommendation system using **FAISS vector similarity search**.
-
-Tech  
-Python • FAISS • Clustering • Node.js • Firebase
-
-Repo  
-https://github.com/bboyrajib/music-recommendation-engine
-
----
-
-### YouTube Live Streaming Platform
-Interactive streaming system with dynamic playlist queue engine.
-
-Tech  
-React • Python • FFMPEG
-
-Repo  
-https://github.com/bboyrajib/yt-live-stream
-
----
-
-# Engineering Experience
-
-### Technical Lead — Wipro Canada  
 Fraud Detection Platform for Major Bank
 
-• Built automated fraud event validation pipelines  
-• Designed reusable validation frameworks for distributed systems  
-• Created **Power BI monitoring dashboards for API health**  
-• Integrated **CI/CD pipelines with enterprise test automation**
-
----
-
-### Technical Lead — GenAI QA Platform
-Designed enterprise **LLM-powered story-to-test automation system**
-
-• Built RAG pipelines for contextual test generation  
-• Integrated with **Azure DevOps and Jira workflows**  
-• Reduced test authoring time by **65%**
+• Enterprise automation architecture  
+• Fraud validation pipelines  
+• Power BI monitoring systems  
+• CI/CD automation frameworks  
 
 ---
 
 # Education
 
-**M.Tech Artificial Intelligence**  
-Indian Institute of Science (IISc), Bengaluru  
-2024 — 2026
+🎓 **M.Tech Artificial Intelligence**  
+Indian Institute of Science (IISc)
 
-Focus:  
-Deep Learning • NLP • Voice Biometrics • LLM Systems
-
-**B.Tech Electrical Engineering**  
+🎓 **B.Tech Electrical Engineering**  
 NIT Durgapur
 
 ---
 
-# GitHub Commits
+# GitHub Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/bboyrajib/bboyrajib/blob/output/github-contribution-grid-snake-dark.svg">
@@ -147,28 +79,42 @@ NIT Durgapur
 
 # GitHub Stats
 
-![Rajib GitHub Stats](https://github-readme-stats-three-delta-oveypnfacj.vercel.app/api?username=bboyrajib&show_icons=true&theme=tokyonight&cache_seconds=1800&count_private=true&include_all_commits=true&v=1)
+<p align="center">
 
-![Top Languages](https://github-readme-stats-three-delta-oveypnfacj.vercel.app/api/top-langs/?username=bboyrajib&layout=compact&theme=tokyonight&cache_seconds=1800&count_private=true&include_all_commits=true&v=1)
+<img src="https://github-readme-stats-three-delta-oveypnfacj.vercel.app/api?username=bboyrajib&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" height="170"/>
 
----
+<img src="https://github-readme-stats-three-delta-oveypnfacj.vercel.app/api/top-langs/?username=bboyrajib&layout=compact&theme=tokyonight" height="170"/>
 
-# GitHub Contribution Graph
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bboyrajib&theme=tokyo-night&cache_seconds=1800&count_private=true&include_all_commits=true&v=1)
+</p>
 
 ---
 
-# Connect
+# GitHub Activity
 
-GitHub  
-https://github.com/bboyrajib
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bboyrajib&theme=tokyo-night" />
 
-LinkedIn  
-https://linkedin.com/in/rajib-roy
+---
 
-Portfolio  
-https://rajibr.com
+# GitHub Achievements
 
-Email  
-bboyrajib@gmail.com
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=bboyrajib&theme=tokyonight&row=1&margin-w=15"/>
+
+</p>
+
+---
+
+# Connect With Me
+
+<p align="center">
+
+<a href="https://github.com/bboyrajib">GitHub</a> •
+<a href="https://linkedin.com/in/rajib-roy">LinkedIn</a> •
+<a href="https://rajibr.com">Portfolio</a>
+
+</p>
+
+<p align="center">
+📧 bboyrajib@gmail.com
+</p>
