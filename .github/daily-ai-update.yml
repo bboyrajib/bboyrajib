@@ -1,0 +1,75 @@
+name: Daily AI Updates
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      # ---------------------------
+      # 1️⃣ Fetch AI News
+      # ---------------------------
+
+      - name: Fetch AI News
+        run: |
+          echo "# Daily AI News" > ai-news.md
+          echo "" >> ai-news.md
+          echo "Updated: $(date)" >> ai-news.md
+          echo "" >> ai-news.md
+          curl -s https://hnrss.org/newest?q=AI | head -n 30 >> ai-news.md
+
+      # ---------------------------
+      # 2️⃣ Fetch Trending GitHub
+      # ---------------------------
+
+      - name: Fetch Trending Repos
+        run: |
+          echo "# Trending GitHub Repositories" > trending-repos.md
+          echo "" >> trending-repos.md
+          echo "Updated: $(date)" >> trending-repos.md
+          echo "" >> trending-repos.md
+          curl -s https://ghapi.huchen.dev/repositories \
+          | jq -r '.[] | "- [" + .name + "](" + .url + ") - ⭐ " + (.stars|tostring)' \
+          | head -n 10 >> trending-repos.md
+
+      # ---------------------------
+      # 3️⃣ Generate AI Learning Note
+      # ---------------------------
+
+      - name: Generate AI Learning Notes
+        run: |
+          echo "# AI Engineering Notes" > ai-learning.md
+          echo "" >> ai-learning.md
+          echo "Date: $(date)" >> ai-learning.md
+          echo "" >> ai-learning.md
+          echo "## Concept: Vector Similarity Search" >> ai-learning.md
+          echo "" >> ai-learning.md
+          echo "Vector similarity search allows efficient retrieval of semantically similar data points." >> ai-learning.md
+          echo "Libraries like FAISS and HNSW enable approximate nearest neighbor search across millions of vectors." >> ai-learning.md
+
+      # ---------------------------
+      # Commit changes
+      # ---------------------------
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "Rajib Roy"
+          git config --global user.email "bboyrajib@users.noreply.github.com"
+          git add .
+          git commit -m "automation: update AI news, trending repos, and learning notes" || echo "No changes"
+          git push
