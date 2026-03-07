@@ -22,7 +22,7 @@ jobs:
           sudo apt-get install -y jq curl
 
       # ------------------------------------------------
-      # 1️⃣ AI News from Hacker News
+      # 1️⃣ AI News (Hacker News API)
       # ------------------------------------------------
 
       - name: Fetch AI News
@@ -33,11 +33,11 @@ jobs:
           echo "" >> ai-news.md
 
           curl -s "https://hn.algolia.com/api/v1/search?query=AI&tags=story&hitsPerPage=10" \
-          | jq -r '.hits[] | "- [" + .title + "](" + .url + ")"' \
+          | jq -r '.hits[] | select(.url != null) | "- [" + .title + "](" + .url + ")"' \
           >> ai-news.md
 
       # ------------------------------------------------
-      # 2️⃣ Trending GitHub Repositories
+      # 2️⃣ Trending GitHub Repos
       # ------------------------------------------------
 
       - name: Fetch Trending Repos
@@ -52,7 +52,7 @@ jobs:
           >> trending-repos.md
 
       # ------------------------------------------------
-      # 3️⃣ Random AI Concept from Wikipedia
+      # 3️⃣ AI Learning Topic (Wikipedia)
       # ------------------------------------------------
 
       - name: Fetch AI Learning Topic
@@ -62,9 +62,13 @@ jobs:
           echo "Updated: $(date)" >> ai-learning.md
           echo "" >> ai-learning.md
 
-          curl -s "https://en.wikipedia.org/api/rest_v1/page/random/summary" \
-          | jq -r '"## " + .title + "\n\n" + .extract + "\n\nSource: " + .content_urls.desktop.page' \
-          >> ai-learning.md
+          RESPONSE=$(curl -s https://en.wikipedia.org/api/rest_v1/page/random/summary)
+
+          if echo "$RESPONSE" | jq . >/dev/null 2>&1; then
+            echo "$RESPONSE" | jq -r '"## " + .title + "\n\n" + .extract + "\n\nSource: " + .content_urls.desktop.page' >> ai-learning.md
+          else
+            echo "Could not fetch AI topic today. Wikipedia API returned unexpected response." >> ai-learning.md
+          fi
 
       # ------------------------------------------------
       # Commit changes
@@ -75,5 +79,5 @@ jobs:
           git config --global user.name "Rajib Roy"
           git config --global user.email "bboyrajib@users.noreply.github.com"
           git add ai-news.md trending-repos.md ai-learning.md
-          git commit -m "automation: update AI news, trending repos, and learning notes" || echo "No changes"
+          git commit -m "automation: update AI news, repos, and learning notes" || echo "No changes"
           git push
