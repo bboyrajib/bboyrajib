@@ -138,9 +138,9 @@ NIT Durgapur
 
 # GitHub Stats
 
-![Rajib GitHub Stats](https://github-readme-stats-bboyrajibs-projects.vercel.app/api?username=bboyrajib&show_icons=true&theme=tokyonight&cache_seconds=1800&count_private=true&include_all_commits=true&v=1)
+![Rajib GitHub Stats](https://github-readme-stats-three-delta-oveypnfacj.vercel.app/api?username=bboyrajib&show_icons=true&theme=tokyonight&cache_seconds=1800&count_private=true&include_all_commits=true&v=1)
 
-![Top Languages](https://github-readme-stats-bboyrajibs-projects.vercel.app/api/top-langs/?username=bboyrajib&layout=compact&theme=tokyonight&cache_seconds=1800&count_private=true&include_all_commits=true&v=1)
+![Top Languages](https://github-readme-stats-three-delta-oveypnfacj.vercel.app/api/top-langs/?username=bboyrajib&layout=compact&theme=tokyonight&cache_seconds=1800&count_private=true&include_all_commits=true&v=1)
 
 ---
 
