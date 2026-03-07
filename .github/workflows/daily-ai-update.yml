@@ -61,14 +61,17 @@ jobs:
           echo "" >> ai-learning.md
           echo "Updated: $(date)" >> ai-learning.md
           echo "" >> ai-learning.md
-
-          RESPONSE=$(curl -s https://en.wikipedia.org/api/rest_v1/page/random/summary)
-
-          if echo "$RESPONSE" | jq . >/dev/null 2>&1; then
-            echo "$RESPONSE" | jq -r '"## " + .title + "\n\n" + .extract + "\n\nSource: " + .content_urls.desktop.page' >> ai-learning.md
-          else
-            echo "Could not fetch AI topic today. Wikipedia API returned unexpected response." >> ai-learning.md
-          fi
+      
+          RESPONSE=$(curl -s "https://export.arxiv.org/api/query?search_query=cat:cs.AI&start=0&max_results=5")
+      
+          TITLE=$(echo "$RESPONSE" | grep -m 1 "<title>" | sed 's/<[^>]*>//g')
+          SUMMARY=$(echo "$RESPONSE" | grep -m 1 "<summary>" | sed 's/<[^>]*>//g')
+      
+          echo "## $TITLE" >> ai-learning.md
+          echo "" >> ai-learning.md
+          echo "$SUMMARY" >> ai-learning.md
+          echo "" >> ai-learning.md
+          echo "Source: https://arxiv.org/list/cs.AI/recent" >> ai-learning.md
 
       # ------------------------------------------------
       # Commit changes
