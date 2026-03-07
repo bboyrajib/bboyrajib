@@ -60,11 +60,9 @@ Fraud Detection Platform for Major Bank
 
 # Education
 
-🎓 **M.Tech Artificial Intelligence**  
-Indian Institute of Science (IISc)
+🎓 **M.Tech Artificial Intelligence** @ Indian Institute of Science (IISc) (2024 - 2026)
 
-🎓 **B.Tech Electrical Engineering**  
-NIT Durgapur
+🎓 **B.Tech Electrical Engineering** @ NIT Durgapur (2014 - 2018)
 
 ---
 
@@ -92,16 +90,6 @@ NIT Durgapur
 # GitHub Activity
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=bboyrajib&theme=tokyo-night" />
-
----
-
-# GitHub Achievements
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=bboyrajib&theme=tokyonight&row=1&margin-w=15"/>
-
-</p>
 
 ---
 
