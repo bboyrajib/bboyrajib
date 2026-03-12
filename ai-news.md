@@ -1,7 +1,8 @@
 # 🧠 Daily AI News
 
-Updated: Wed Mar 11 04:28:36 UTC 2026
+Updated: Thu Mar 12 04:43:57 UTC 2026
 
+- [Don't post generated/AI-edited comments. HN is for conversation between humans](https://news.ycombinator.com/newsguidelines.html#generated)
 - [Airfoil](https://ciechanow.ski/airfoil/)
 - [Open source AI is the path forward](https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/)
 - [My AI skeptic friends are all nuts](https://fly.io/blog/youre-all-nuts/)
@@ -11,4 +12,3 @@ Updated: Wed Mar 11 04:28:36 UTC 2026
 - [Bypassing airport security via SQL injection](https://ian.sh/tsa)
 - [Air Con: $1697 for an on/off switch](https://blog.hopefullyuseful.com/blog/advantage-air-ezone-tablet-diy-repair/)
 - [Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone](https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html)
-- [Paper Airplane Designs](https://www.foldnfly.com/)
