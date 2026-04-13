@@ -1,14 +1,14 @@
 # 🚀 Trending GitHub Repositories
 
-Updated: Sun Apr 12 05:17:35 UTC 2026
+Updated: Mon Apr 13 05:35:35 UTC 2026
 
-- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) ⭐ 194662
-- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐ 159214
-- [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) ⭐ 85126
-- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ⭐ 79921
-- [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) ⭐ 72137
-- [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) ⭐ 65779
-- [gradio-app/gradio](https://github.com/gradio-app/gradio) ⭐ 42293
-- [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) ⭐ 34039
-- [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) ⭐ 32793
-- [lutzroeder/netron](https://github.com/lutzroeder/netron) ⭐ 32728
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) ⭐ 194684
+- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐ 159266
+- [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) ⭐ 85147
+- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ⭐ 79937
+- [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) ⭐ 72155
+- [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) ⭐ 65799
+- [gradio-app/gradio](https://github.com/gradio-app/gradio) ⭐ 42303
+- [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) ⭐ 34044
+- [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) ⭐ 32814
+- [lutzroeder/netron](https://github.com/lutzroeder/netron) ⭐ 32735
