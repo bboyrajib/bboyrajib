@@ -1,6 +1,6 @@
 # 🧠 Daily AI News
 
-Updated: Wed May 13 06:22:28 UTC 2026
+Updated: Thu May 14 06:19:19 UTC 2026
 
 - [Don't post generated/AI-edited comments. HN is for conversation between humans](https://news.ycombinator.com/newsguidelines.html#generated)
 - [Airfoil](https://ciechanow.ski/airfoil/)
