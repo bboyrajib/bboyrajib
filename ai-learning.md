@@ -1,6 +1,6 @@
 # 📚 AI Learning Notes
 
-Updated: Sun Jun 14 07:18:49 UTC 2026
+Updated: Mon Jun 15 08:54:51 UTC 2026
 
 ##   arXiv Query: search_query=cat:cs.AI&amp;id_list=&amp;start=0&amp;max_results=5
 
