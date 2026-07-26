@@ -1,14 +1,14 @@
 # 🚀 Trending GitHub Repositories
 
-Updated: Sat Jul 25 05:37:39 UTC 2026
+Updated: Sun Jul 26 05:53:58 UTC 2026
 
-- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) ⭐ 196512
-- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐ 162958
-- [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) ⭐ 88553
-- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ⭐ 82021
-- [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) ⭐ 73703
-- [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) ⭐ 66783
-- [gradio-app/gradio](https://github.com/gradio-app/gradio) ⭐ 43203
-- [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) ⭐ 35689
-- [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) ⭐ 34518
-- [lutzroeder/netron](https://github.com/lutzroeder/netron) ⭐ 33260
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) ⭐ 196537
+- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐ 162984
+- [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) ⭐ 88589
+- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ⭐ 82048
+- [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) ⭐ 73721
+- [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) ⭐ 66786
+- [gradio-app/gradio](https://github.com/gradio-app/gradio) ⭐ 43210
+- [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) ⭐ 35711
+- [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) ⭐ 34520
+- [lutzroeder/netron](https://github.com/lutzroeder/netron) ⭐ 33262
