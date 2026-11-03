@@ -1,14 +1,14 @@
 # 🚀 Trending GitHub Repositories
 
-Updated: Mon Nov  2 10:24:44 UTC 2026
+Updated: Tue Nov  3 10:22:19 UTC 2026
 
-- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) ⭐ 201266
-- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐ 168439
-- [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) ⭐ 91941
-- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ⭐ 84336
-- [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) ⭐ 74731
-- [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) ⭐ 67969
-- [gradio-app/gradio](https://github.com/gradio-app/gradio) ⭐ 43964
-- [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) ⭐ 37597
-- [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) ⭐ 34843
-- [lutzroeder/netron](https://github.com/lutzroeder/netron) ⭐ 33644
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) ⭐ 201283
+- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐ 168484
+- [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) ⭐ 91959
+- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ⭐ 84352
+- [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) ⭐ 74742
+- [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) ⭐ 67986
+- [gradio-app/gradio](https://github.com/gradio-app/gradio) ⭐ 43975
+- [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) ⭐ 37607
+- [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) ⭐ 34850
+- [lutzroeder/netron](https://github.com/lutzroeder/netron) ⭐ 33649
